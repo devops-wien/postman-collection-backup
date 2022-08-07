@@ -64,13 +64,13 @@
 	],
 	"variable": [
 		{
-			"id": "1b0c503b-1111-425a-b068-8454840b5945",
+			"id": "c2bd25f3-5ca9-430b-ba05-6b1ec8452bd3",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "255bb1e3-5cc6-4de4-b073-a54d036059fa",
+			"id": "10bfcbbb-a0ec-4d8e-b55e-0a93f3f8869e",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
