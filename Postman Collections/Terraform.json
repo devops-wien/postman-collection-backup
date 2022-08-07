@@ -355,7 +355,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f5250ce2-2bdb-4b33-b9ca-1a84397eebee",
+				"id": "ef6480a7-d623-4a03-8287-db966c961054",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -365,7 +365,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4a4945d4-f9d8-44d3-ae48-1c5a4d57b854",
+				"id": "b835d9bd-2b2c-4397-ae60-e4bb916aedb1",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -375,21 +375,27 @@
 	],
 	"variable": [
 		{
-			"id": "c2865e47-e737-45db-8d32-ef91a1507f06",
+			"id": "4aa806bf-a34b-4b43-85d1-d257fc975a41",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "054a7be5-a578-4fc0-835f-cec4b504ba4b",
+			"id": "2b52fdb1-85c5-4afe-9594-c24e2e550669",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "ce67e059-e10f-4227-925a-ee9054345e10",
+			"id": "505e16a3-5958-4605-bef9-095ea94820e4",
 			"key": "workspace_name",
 			"value": "default_workspace",
+			"type": "string"
+		},
+		{
+			"id": "b096d43f-1087-48dc-80db-aa522bb5f2e0",
+			"key": "workspace_id",
+			"value": "ws-7zLoxqNz1EDdTbQ8",
 			"type": "string"
 		}
 	]
