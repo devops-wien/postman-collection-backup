@@ -24,7 +24,7 @@
 					"mode": "raw",
 					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"workspace-2\",\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"branch\": \"main\"\r\n      },\r\n      \"updated-at\": \"2017-11-29T19:18:09.976Z\"\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n"
 				},
-				"url": "{{api_endpoint}}/{{organizations}}/workspaces"
+				"url": "{{api_endpoint}}/{{organization_name}}/workspaces"
 			},
 			"response": []
 		}
@@ -59,13 +59,13 @@
 	],
 	"variable": [
 		{
-			"id": "3458de3f-da29-47bd-bbc1-73f201f8aff1",
+			"id": "edcf32c9-03e7-41ba-8988-02d65bda9574",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "5c0f6b20-b35c-485d-a1cf-877fd1aad5a9",
+			"id": "bdad0b23-e676-4569-b356-02fb4677c2bf",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
