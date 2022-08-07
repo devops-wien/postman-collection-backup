@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Folder",
+			"name": "create Workspace Variable",
 			"item": [],
 			"id": "f5d59e7b-e3f8-444d-a8b1-d616b130dd62"
 		},
@@ -380,25 +380,25 @@
 	],
 	"variable": [
 		{
-			"id": "08c2b6c7-de2a-48a2-893d-1b40a977ef00",
+			"id": "5a091096-3b69-4038-b9f9-f9cf9f9972c3",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "8ec97dc5-5918-486f-bb2e-9de6800c39c8",
+			"id": "12ff1e2b-ebce-4965-9321-0e328cb979f0",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "600dc90a-933e-4873-b380-28fc42c95454",
+			"id": "76e5c850-813e-40a9-b41f-576d64f48958",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "6e119921-6e4d-4a4b-8e0a-87aaca723ed1",
+			"id": "ec61d269-cb27-400e-8d93-32804d454764",
 			"key": "workspace_id",
 			"value": "ws-7zLoxqNz1EDdTbQ8",
 			"type": "string"
