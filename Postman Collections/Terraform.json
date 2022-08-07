@@ -892,7 +892,120 @@
 				},
 				"url": "{{api_endpoint}}/runs"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "07371d0f-1e54-43d2-85b3-97a55e472652",
+					"name": "run Workspace",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"message\": \"Managed by Postman\"\r\n    },\r\n    \"type\":\"runs\",\r\n    \"relationships\": {\r\n      \"workspace\": {\r\n        \"data\": {\r\n          \"type\": \"workspaces\",\r\n          \"id\": \"{{workspace_id}}\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{api_endpoint}}/runs"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 07 Aug 2022 13:45:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/vnd.api+json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1951"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=0, private, must-revalidate"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"879f3afacfb45c1a574d8849476d982c\""
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains; preload"
+						},
+						{
+							"key": "Tfp-Api-Version",
+							"value": "2.5"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Origin"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "30"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "29"
+						},
+						{
+							"key": "X-Ratelimit-Reset",
+							"value": "0.0"
+						},
+						{
+							"key": "X-Request-Id",
+							"value": "946605d4-c833-7bd1-565f-f0d4ced1fe3b"
+						},
+						{
+							"key": "X-Xss-Protection",
+							"value": "1; mode=block"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"data\": {\n        \"id\": \"run-Z73oUGcN8UcxgGPn\",\n        \"type\": \"runs\",\n        \"attributes\": {\n            \"actions\": {\n                \"is-cancelable\": true,\n                \"is-confirmable\": false,\n                \"is-discardable\": false,\n                \"is-force-cancelable\": false\n            },\n            \"allow-empty-apply\": false,\n            \"auto-apply\": true,\n            \"canceled-at\": null,\n            \"created-at\": \"2022-08-07T13:45:47.265Z\",\n            \"has-changes\": false,\n            \"is-destroy\": false,\n            \"message\": \"Managed by Postman\",\n            \"plan-only\": false,\n            \"refresh\": true,\n            \"refresh-only\": false,\n            \"replace-addrs\": null,\n            \"source\": \"tfe-api\",\n            \"status-timestamps\": {\n                \"plan-queueable-at\": \"2022-08-07T13:45:47+00:00\",\n                \"queuing-at\": \"2022-08-07T13:45:47+00:00\"\n            },\n            \"status\": \"pending\",\n            \"target-addrs\": null,\n            \"trigger-reason\": \"manual\",\n            \"terraform-version\": \"1.2.6\",\n            \"permissions\": {\n                \"can-apply\": true,\n                \"can-cancel\": true,\n                \"can-comment\": true,\n                \"can-discard\": true,\n                \"can-force-execute\": true,\n                \"can-force-cancel\": true,\n                \"can-override-policy-check\": false\n            },\n            \"variables\": []\n        },\n        \"relationships\": {\n            \"workspace\": {\n                \"data\": {\n                    \"id\": \"ws-QffSVENpk9XvmarD\",\n                    \"type\": \"workspaces\"\n                }\n            },\n            \"apply\": {\n                \"data\": {\n                    \"id\": \"apply-jZYBgpSd8AxFk5Kj\",\n                    \"type\": \"applies\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/apply\"\n                }\n            },\n            \"configuration-version\": {\n                \"data\": {\n                    \"id\": \"cv-CBYL9aYbkaB18UfE\",\n                    \"type\": \"configuration-versions\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/configuration-version\"\n                }\n            },\n            \"created-by\": {\n                \"data\": {\n                    \"id\": \"user-wESeFbSoVckCHCc5\",\n                    \"type\": \"users\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/created-by\"\n                }\n            },\n            \"plan\": {\n                \"data\": {\n                    \"id\": \"plan-srW1LZM1cBZxKRde\",\n                    \"type\": \"plans\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/plan\"\n                }\n            },\n            \"run-events\": {\n                \"data\": [\n                    {\n                        \"id\": \"re-DgJEJYKxuhYYdm7w\",\n                        \"type\": \"run-events\"\n                    }\n                ],\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/run-events\"\n                }\n            },\n            \"task-stages\": {\n                \"data\": [],\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/task-stages\"\n                }\n            },\n            \"policy-checks\": {\n                \"data\": [],\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/policy-checks\"\n                }\n            },\n            \"comments\": {\n                \"data\": [],\n                \"links\": {\n                    \"related\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn/comments\"\n                }\n            }\n        },\n        \"links\": {\n            \"self\": \"/api/v2/runs/run-Z73oUGcN8UcxgGPn\"\n        }\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "get Workspaces",
@@ -1264,31 +1377,31 @@
 	],
 	"variable": [
 		{
-			"id": "1730f652-e4c5-4fa8-89b7-c4ebc18a6a5d",
+			"id": "9fbf8eca-4612-4db4-bfb8-afa412e951d5",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "a9d72ba1-0bc6-4a1a-a9f9-064dce7e8e72",
+			"id": "697c374f-eb80-4a23-8169-d1aacc36a020",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "d0000ae0-9990-4f81-bb48-695a6e2c7e74",
+			"id": "1aae2066-e102-4bdd-9a82-326f8e52dc9e",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "aec76d50-adfe-4fae-9e54-b567cbbb110c",
+			"id": "63e2948e-731b-4b96-b166-ae0ff80c50b5",
 			"key": "workspace_id",
 			"value": "ws-QffSVENpk9XvmarD",
 			"type": "string"
 		},
 		{
-			"id": "705efbce-5834-4b62-8d62-5af43467819c",
+			"id": "2d345625-8425-4e8c-b829-2b64d0976d3d",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
