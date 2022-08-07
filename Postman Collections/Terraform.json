@@ -6,6 +6,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "14f6f0e7-e64a-4b8e-a367-6e35bf7aa30b"
+		},
+		{
 			"name": "create Workspace",
 			"id": "d78c8f70-7504-481c-a327-66d84f4abbad",
 			"protocolProfileBehavior": {
@@ -49,7 +54,7 @@
 	],
 	"variable": [
 		{
-			"id": "e8828504-cc08-43e0-aac0-58b5dfda227b",
+			"id": "68ad0c21-276c-4cca-a312-09890a815fec",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2/",
 			"type": "string"
