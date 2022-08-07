@@ -202,63 +202,6 @@
 				"url": "{{api_endpoint}}/oauth-clients/{{oauth_client_id}}/oauth-tokens"
 			},
 			"response": []
-		},
-		{
-			"name": "List Exoscale Zones",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "f0d5eb65-eaeb-434a-81f6-f5a6631cb5c4",
-						"exec": [
-							"pm.variables.set(\"expires\", new Date().getTime())\r",
-							"pm.variables.set(\"exo_signature\", CryptoJS.HmacSHA256(\"ss\", var.exo_secret).toString(CryptoJS.digest));\r",
-							""
-						],
-						"type": "text/javascript"
-					}
-				}
-			],
-			"id": "a5c0689b-83a9-42fc-bb7e-556c102afbac",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true,
-				"disabledSystemHeaders": {
-					"user-agent": true,
-					"accept": true,
-					"accept-encoding": true,
-					"connection": true
-				}
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/vnd.api+json",
-						"type": "text",
-						"disabled": true
-					},
-					{
-						"key": "Authorization",
-						"value": "EXO2-HMAC-SHA256 credential={{exo_key}},expires={{expires}},signature={{exo_signature}}",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": "https://api-ch-gva-2.exoscale.com/v2/listZones"
-			},
-			"response": []
 		}
 	],
 	"auth": {
@@ -291,30 +234,30 @@
 	],
 	"variable": [
 		{
-			"id": "27e0e81a-a2fa-4e16-b6f8-e8bc58c2b01f",
+			"id": "18fa5b28-5e7a-455b-9074-983e055a6374",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "e9b0d36f-3e4b-4160-a3b0-93567708ec20",
+			"id": "fa6ed737-9a3e-40e4-83b4-441e73e21c23",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "ead7cd6b-d753-4d7e-9b9d-fa90589687c8",
+			"id": "b497aae9-68ce-4d65-9b0a-789d31a9786e",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "541a9561-8b08-44dc-86be-1e907ca9fb2e",
+			"id": "0d8ad1d6-eb79-4150-b26c-c42829d8c1d6",
 			"key": "expires",
 			"value": "1659873838"
 		},
 		{
-			"id": "a0a9e6ab-bc54-46df-922e-fd6c4bfc70fc",
+			"id": "ea649454-7616-4505-a01a-4bac4b350f66",
 			"key": "exo_signature",
 			"value": "",
 			"type": "string"
