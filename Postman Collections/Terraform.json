@@ -172,37 +172,7 @@
 				},
 				"url": "{{api_endpoint}}/organizations/{{organization_name}}/oauth-clients"
 			},
-			"response": [
-				{
-					"id": "f14eeeb6-09e3-47dd-b40b-60697e11c6c5",
-					"name": "OAuth Clients API",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/vnd.api+json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{api_endpoint}}/organizations/{{organization_name}}/oauth-clients"
-					},
-					"_postman_previewlanguage": null,
-					"header": null,
-					"cookie": [],
-					"responseTime": null,
-					"body": null
-				}
-			]
+			"response": []
 		},
 		{
 			"name": "List OAuth Tokens",
@@ -264,19 +234,19 @@
 	],
 	"variable": [
 		{
-			"id": "772a0bce-00dc-42df-a3ad-a194b338d168",
+			"id": "8d8f8b0b-cc9d-48ba-9d56-f405aad002e6",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "53aff166-08f0-4d26-a4c8-909dfe2b550d",
+			"id": "3951cb66-ec7f-46ef-af06-d4576d446e28",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "f83ac88c-3032-4078-b797-6ba2fe5576be",
+			"id": "53a1b6c4-03e5-47ce-a347-d834d87de010",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
