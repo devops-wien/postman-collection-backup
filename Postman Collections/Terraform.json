@@ -1079,7 +1079,7 @@
 						}
 					}
 				},
-				"url": "{{api_endpoint}}/workspaces/{{workspace_id}}/vars"
+				"url": "{{api_endpoint}}/workspaces/{{workspace_id}}"
 			},
 			"response": [
 				{
@@ -1227,31 +1227,31 @@
 	],
 	"variable": [
 		{
-			"id": "127d243e-41aa-4a04-bdc0-d3a19349dcc0",
+			"id": "4eba6b27-16d4-43ec-9d2f-5870c69785ea",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "3d67baf3-ce9c-4162-a8c0-f07906c62d9a",
+			"id": "20998a9f-c5be-4141-935a-c5f0d5be4be1",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "3a3263c2-c283-493c-b4f2-3d4e4409b458",
+			"id": "c48e989a-79a4-46a8-b033-d55e2a8118fe",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "805b6f06-6eee-4081-9cfc-70802fe582c6",
+			"id": "1693e373-a067-49a9-b9c2-676c9f3ebdb8",
 			"key": "workspace_id",
 			"value": "ws-7zLoxqNz1EDdTbQ8",
 			"type": "string"
 		},
 		{
-			"id": "c159d374-298c-43b5-8685-38d8dbb7808f",
+			"id": "b437b654-5ffb-469b-82f0-6fccb04d70b9",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
