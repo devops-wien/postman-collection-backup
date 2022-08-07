@@ -73,7 +73,8 @@
 					{
 						"key": "Content-Type",
 						"value": "application/vnd.api+json",
-						"type": "text"
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
@@ -120,13 +121,13 @@
 	],
 	"variable": [
 		{
-			"id": "0f0ed60a-1877-4b78-898d-a0ad0a67e93e",
+			"id": "af7577c3-8d58-4aff-8005-d03e3549ec35",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "98576494-8756-4e08-b118-61c14950753e",
+			"id": "ab844178-768d-41c1-ab43-97ae012abbb5",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
