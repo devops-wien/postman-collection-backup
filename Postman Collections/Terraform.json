@@ -85,7 +85,7 @@
 						}
 					}
 				},
-				"url": "{{api_endpoint}}/organizations/{{organization_name}}/oauth-clients"
+				"url": "{{api_endpoint}}/oauth-clients/{{oauth_client_id}}/oauth-tokens"
 			},
 			"response": []
 		}
@@ -120,13 +120,13 @@
 	],
 	"variable": [
 		{
-			"id": "fdd44bbc-8108-49d7-88fa-e45db8938351",
+			"id": "0f0ed60a-1877-4b78-898d-a0ad0a67e93e",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "4f6e2c0b-e0cd-44a0-848a-452c33f236ee",
+			"id": "98576494-8756-4e08-b118-61c14950753e",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
