@@ -204,17 +204,33 @@
 			"response": []
 		},
 		{
-			"name": "List OAuth Tokens Copy",
+			"name": "List Exoscale Zones",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "0beb1f00-4754-443b-bccf-6269f322d4e9",
+						"exec": [
+							"pm.variables.set(\"expires\", new Date().getTime())\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "a5c0689b-83a9-42fc-bb7e-556c102afbac",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "GET",
 				"header": [
 					{
-						"key": "Content-Type",
-						"value": "application/vnd.api+json",
+						"key": "Authorization",
+						"value": "EXO2-HMAC-SHA256 credential={{exo_key}},expires={{expires}},signature={{exo_secret}}",
 						"type": "text",
 						"disabled": true
 					}
@@ -228,7 +244,7 @@
 						}
 					}
 				},
-				"url": "{{api_endpoint}}/oauth-clients/{{oauth_client_id}}/oauth-tokens"
+				"url": "https://api-ch-gva-2.exoscale.com/v2/zone"
 			},
 			"response": []
 		}
@@ -263,25 +279,25 @@
 	],
 	"variable": [
 		{
-			"id": "3f175b03-db1e-4edc-b6e4-bf7033b57aa8",
+			"id": "916f7c33-0aa9-4e3f-b4f0-d89b69b7591a",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "813fe1ab-edcb-4407-af8e-947c29b24997",
+			"id": "8f816d28-48f4-4e8e-8ee7-323cac0ee84b",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "68edf2da-538f-4d73-b96b-15c8c085d356",
+			"id": "caf92c0a-b32f-4e5f-ac26-0902a8a1ce3c",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "c1cda112-30e3-48c5-a796-04651a88d90c",
+			"id": "8941f878-83e1-43fe-9206-0c29bcb8548d",
 			"key": "expires",
 			"value": "1659873838"
 		}
