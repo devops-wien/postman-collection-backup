@@ -34,7 +34,7 @@
 			"response": []
 		},
 		{
-			"name": "list Oauth Token",
+			"name": "OAuth Clients API",
 			"id": "f96898ce-e573-4e0e-8e91-8468be9b62ae",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -92,13 +92,13 @@
 	],
 	"variable": [
 		{
-			"id": "27690c40-e4b5-4bf9-a680-b4d000a6d5dd",
+			"id": "6887593a-4ee3-4759-9d35-c8a232c6e24a",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "a89df549-849f-43f9-a967-fbade860049a",
+			"id": "22270ea8-65d9-4661-9978-e004c69b966b",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
