@@ -22,14 +22,14 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "${{api_token}}"
+			"token": "{{api_token}}"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6484ec37-651e-4a05-a170-10615eb97b49",
+				"id": "44775405-f8d5-4a2f-b838-a3963311ef34",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -39,7 +39,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f6d7f5af-58dd-401f-ab97-a387fc2f505a",
+				"id": "2c2449b9-97eb-40a0-bfc0-7c0020646a93",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -49,7 +49,7 @@
 	],
 	"variable": [
 		{
-			"id": "7111baa8-cfa9-4072-804c-5d25493163ee",
+			"id": "e8828504-cc08-43e0-aac0-58b5dfda227b",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2/",
 			"type": "string"
