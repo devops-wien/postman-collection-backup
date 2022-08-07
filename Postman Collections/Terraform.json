@@ -212,6 +212,7 @@
 						"id": "f0d5eb65-eaeb-434a-81f6-f5a6631cb5c4",
 						"exec": [
 							"pm.variables.set(\"expires\", new Date().getTime())\r",
+							"pm.variables.set(\"exo_signature\", CryptoJS.HmacSHA256(\"ss\", var.exo_secret).toString(CryptoJS.digest));\r",
 							""
 						],
 						"type": "text/javascript"
@@ -290,25 +291,25 @@
 	],
 	"variable": [
 		{
-			"id": "3d01eca3-2637-4580-9fbd-7cf07c0e01c8",
+			"id": "f0484823-13ee-4d7a-a5da-2e3fa722d51d",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "7a3c7d52-5314-46b5-beaf-4cecffe096f6",
+			"id": "3c770b96-1fbd-4f7b-8ae3-d97d9bd4b2a0",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "4a87ed9d-9fcb-4457-a853-b676d2e0226f",
+			"id": "ef57f11d-0d28-4063-b0d9-06aa387884b8",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "d8932692-1a5c-4e9b-abe1-02565cb213a1",
+			"id": "8909be86-2206-46d4-83d2-6d1ed745ea66",
 			"key": "expires",
 			"value": "1659873838"
 		}
