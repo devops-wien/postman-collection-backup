@@ -13,7 +13,17 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"workspace-2\",\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"branch\": \"main\"\r\n      },\r\n      \"updated-at\": \"2017-11-29T19:18:09.976Z\"\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n"
+				},
 				"url": "{{api_endpoint}}/{{organizations}}/workspaces"
 			},
 			"response": []
@@ -49,13 +59,13 @@
 	],
 	"variable": [
 		{
-			"id": "31812071-1618-47c6-a0fc-219e6dc1cf9e",
+			"id": "2ca6007c-daee-4274-8e8f-2cee2f171750",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2/",
 			"type": "string"
 		},
 		{
-			"id": "d15fe285-5360-4f33-9a2a-4cdb74f93733",
+			"id": "8757edda-29ed-42ca-b1c0-1bfd0e176bbe",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
