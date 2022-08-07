@@ -22,7 +22,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"workspace-2\",\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"1.2.6\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"oauth-token-id\": \"{{oauth_token_id}}\",\r\n        \"branch\": \"main\"\r\n      }\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"workspace-4\",\r\n      \"auto-apply\": true,\t\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"oauth-token-id\": \"{{oauth_token_id}}\",\r\n        \"branch\": \"main\"\r\n      }\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,13 +121,13 @@
 	],
 	"variable": [
 		{
-			"id": "f55acab3-c5f2-4170-9055-26ffd805ba9b",
+			"id": "eac357e9-09e6-4e27-9841-15f0c24f1c26",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "d277287c-107d-4976-b11d-37caf8a11310",
+			"id": "13c719f7-9858-4ec8-9098-8c697efbedda",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
