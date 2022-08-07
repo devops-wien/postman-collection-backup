@@ -60,6 +60,34 @@
 				"url": "{{api_endpoint}}/organizations/{{organization_name}}/oauth-clients"
 			},
 			"response": []
+		},
+		{
+			"name": "List OAuth Tokens",
+			"id": "9394d1b5-2f7d-477d-86b0-b438a182c21d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{api_endpoint}}/organizations/{{organization_name}}/oauth-clients"
+			},
+			"response": []
 		}
 	],
 	"auth": {
@@ -92,13 +120,13 @@
 	],
 	"variable": [
 		{
-			"id": "7fbc5fd5-0d8a-4b1c-bfcd-193a2abfa8ac",
+			"id": "fdd44bbc-8108-49d7-88fa-e45db8938351",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "1dca018d-2394-4923-a95a-8af6a1aedbf9",
+			"id": "4f6e2c0b-e0cd-44a0-848a-452c33f236ee",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
