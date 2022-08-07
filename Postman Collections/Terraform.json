@@ -32,6 +32,34 @@
 				"url": "{{api_endpoint}}/organizations/{{organization_name}}/workspaces"
 			},
 			"response": []
+		},
+		{
+			"name": "list",
+			"id": "f96898ce-e573-4e0e-8e91-8468be9b62ae",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"workspace-2\",\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"oauth-token-id\": \"{{repo_oauth_token_id}}\",\r\n        \"branch\": \"main\"\r\n      },\r\n      \"updated-at\": \"2017-11-29T19:18:09.976Z\"\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{api_endpoint}}/organizations/{{organization_name}}/workspaces"
+			},
+			"response": []
 		}
 	],
 	"auth": {
@@ -64,13 +92,13 @@
 	],
 	"variable": [
 		{
-			"id": "d7a445f9-5b34-46b2-917d-8f2a7b1821da",
+			"id": "1cbd741e-8b27-4566-9206-559d4e8659f5",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "7aaff240-c60a-47d7-8f4f-6e2f3693e05b",
+			"id": "f1c19270-566e-47c2-be36-e13c8c96ee07",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
