@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Request",
+			"name": "create Workspace",
 			"id": "d78c8f70-7504-481c-a327-66d84f4abbad",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -48,7 +48,7 @@
 	],
 	"variable": [
 		{
-			"id": "1d94af0c-e1e0-46bb-8faf-c58bcd46a273",
+			"id": "be2ebbaf-09a4-4b1c-a0b9-4565ce6c93b7",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2/",
 			"type": "string"
