@@ -147,7 +147,7 @@
 			]
 		},
 		{
-			"name": "create WorkspaceVariable",
+			"name": "create Workspace Variable",
 			"id": "979440c4-2c4c-4242-8bcb-a1525d303668",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -375,19 +375,19 @@
 	],
 	"variable": [
 		{
-			"id": "7bb80c66-ec7e-408e-84e9-576b6b3be3bd",
+			"id": "c2865e47-e737-45db-8d32-ef91a1507f06",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "090a020e-3615-48b8-b25d-b8c5feaae70b",
+			"id": "054a7be5-a578-4fc0-835f-cec4b504ba4b",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "dc56c8e4-2d9d-4d9e-a5f5-f1f5c181fce2",
+			"id": "ce67e059-e10f-4227-925a-ee9054345e10",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
