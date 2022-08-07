@@ -17,5 +17,47 @@
 			},
 			"response": []
 		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "${{api_token}}"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "ffc88bd5-d890-4542-9b72-1a9e41d08ad8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a4ab7dd9-5ca8-45cc-b780-6a1ff1cff538",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "a292308d-cc9c-4f00-b877-e9c5c25b3357",
+			"key": "api_endpoint",
+			"value": "https://app.terraform.io/api/v2/",
+			"type": "string"
+		},
+		{
+			"id": "a1307527-1d0a-45ef-93a3-1661c2861033",
+			"key": "\n",
+			"value": "",
+			"type": "string"
+		}
 	]
 }
