@@ -1555,31 +1555,31 @@
 	],
 	"variable": [
 		{
-			"id": "86b6b621-5448-4850-af78-106afb735ceb",
+			"id": "021b5106-a7f9-471b-9f9e-500802353235",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "5fef1820-8770-485b-9d17-ef09a8d4a1b6",
+			"id": "767a6741-e20b-430e-9a58-02f5e77f7a35",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "32355f7f-f6c2-4458-99fc-22a324da3aed",
+			"id": "b7d9c572-6e51-4d83-b3f3-eb40f0feef45",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "895ca273-c5e9-49f2-98c0-3358e36168d2",
+			"id": "73f99552-ecc0-4983-a325-e6c6df34968c",
 			"key": "workspace_id",
 			"value": "ws-G828wsxgkKbSVhXP",
 			"type": "string"
 		},
 		{
-			"id": "76694349-7e4a-4217-9cd7-23546dbe8854",
+			"id": "fa0488dc-0bec-4f83-b797-6e5083c32676",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
