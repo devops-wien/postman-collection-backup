@@ -874,7 +874,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"{{workspace_name}}\",\r\n      \"auto-apply\": true,\t\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"oauth-token-id\": \"{{oauth_token_id}}\",\r\n        \"branch\": \"main\"\r\n      }\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n",
+					"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"name\": \"{{workspace_name}}\",\r\n      \"auto-apply\": true,\t\r\n      \"global-remote-state\": true,\r\n      \"resource-count\": 0,\r\n      \"terraform_version\": \"latest\",\r\n      \"working-directory\": \"\",\r\n      \"vcs-repo\": {\r\n        \"identifier\": \"{{workspace_repository}}\",\r\n        \"oauth-token-id\": \"{{oauth_token_id}}\",\r\n        \"branch\": \"main\"\r\n      }\r\n    },\r\n    \"type\": \"workspaces\"\r\n  }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1668,31 +1668,31 @@
 	],
 	"variable": [
 		{
-			"id": "7f603913-e4a5-4a59-8d8f-4ffb77bc1931",
+			"id": "ca8a320c-56c9-4d5d-be39-6740878b2dd8",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "85f5a07e-95f0-4585-8b21-329e5d0bbdaa",
+			"id": "e07268fe-a8f3-456f-a068-effdf0ecca30",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "5a53df51-d097-4fee-90d2-04ac58071bef",
+			"id": "2d19d513-bafc-4857-932a-3f489072b1d6",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "0a17998d-4a76-485d-94c3-eb25561484b7",
+			"id": "7c344d92-535a-41d0-95aa-4a144e43d36e",
 			"key": "workspace_id",
 			"value": "ws-pcw6CGgf3duTQXeL",
 			"type": "string"
 		},
 		{
-			"id": "66773ac9-53a3-4e33-81b8-508e35922012",
+			"id": "2e52f174-791c-4105-a238-5de1e6ee56f3",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
