@@ -150,6 +150,34 @@
 					]
 				},
 				{
+					"name": "exo_key Copy",
+					"id": "5308bc01-418f-4571-896e-764d6adaefc7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"data\": {\r\n    \"attributes\": {\r\n      \"key\":\"sks_key\",\r\n      \"value\":\"{{exo_key}}\",\r\n      \"description\":\"managed by postman\",\r\n      \"category\":\"terraform\",\r\n      \"hcl\": false,\r\n      \"sensitive\": false\r\n    },\r\n    \"type\":\"vars\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{api_endpoint}}/workspaces/{{workspace_id}}/vars"
+					},
+					"response": []
+				},
+				{
 					"name": "cloudflare_zone_id",
 					"id": "391ee8c9-463e-46e6-839f-211f6a37d6da",
 					"protocolProfileBehavior": {
@@ -1527,31 +1555,31 @@
 	],
 	"variable": [
 		{
-			"id": "b24cdbd5-2320-437b-9279-a57e358f4e3b",
+			"id": "11ee0f6d-f8fc-4877-8f71-66016cda4e37",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "ea2eb10a-acb5-4c36-8292-f6b3a1522c32",
+			"id": "9a164c56-6818-4bcf-896c-c131b9599b49",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "c57cba4a-ab18-4ca8-a2f6-725a4262c740",
+			"id": "56457ad3-fe68-41fb-93db-e175775e192b",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "8f2075dc-8187-4a60-981e-b2203b98401e",
+			"id": "718f4f24-50c1-4142-84ec-cba9155c351a",
 			"key": "workspace_id",
 			"value": "ws-pcw6CGgf3duTQXeL",
 			"type": "string"
 		},
 		{
-			"id": "61bc3140-eca9-402c-9c54-03e3eabce03c",
+			"id": "80d1283d-bd06-44ad-bf12-5ceb41bea174",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
