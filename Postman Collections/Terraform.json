@@ -2071,7 +2071,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "d3bb076d-0c47-48d8-83fe-899e06522624",
+				"id": "f633707e-ad00-471f-836e-e8037e1fe7e6",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2081,7 +2081,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "60b514ec-d77a-4da5-ba2e-c3c2dcf15653",
+				"id": "cef20dd6-04a5-4de4-a8d6-83e0c3ebccaf",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2091,44 +2091,56 @@
 	],
 	"variable": [
 		{
-			"id": "068cbae8-0e04-407d-a020-34788b3b694a",
+			"id": "6108656a-1705-4acc-b2b5-9ef22a5a221b",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "784bdbf6-6da1-4479-9ed9-de34fb72944f",
+			"id": "6137ef33-8c37-437d-bc3a-374ba58cc5d7",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "c2cafe4e-c28e-41b5-9ab6-16a2c2566902",
+			"id": "dbb88b57-4a35-407f-a6fd-4fa3e1b282d1",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "02315c19-ba32-413f-8892-6c3c4d9ebf77",
+			"id": "4321e862-767d-4681-b553-b0411e4cf2ac",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "288362cc-71bc-41da-85da-2c59383cc3b3",
+			"id": "ee6c58a0-9d74-4f94-9126-c4b83e9f188b",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "a7f4b0b0-6654-4070-bd98-f73a64c66fd2",
+			"id": "bfc92d6a-e564-45e1-9c91-91c0f51538fb",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "1b37fbfd-0607-42ba-974d-61c3b3d2215c",
+			"id": "62367ed6-3cdd-4bdf-8802-ff33064428b4",
 			"key": "workspace_postfix",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "8b9062d0-5c24-4c56-86ea-b7ec1f95106e",
+			"key": "target_port",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "8bdc2b62-ba39-49f9-ac4f-986ef5f8c6fa",
+			"key": "image",
 			"value": "",
 			"type": "string"
 		}
