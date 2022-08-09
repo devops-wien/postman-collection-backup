@@ -291,6 +291,147 @@
 					]
 				},
 				{
+					"name": "organization",
+					"id": "f9046ed4-798f-488f-81c4-0b07ac04b749",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"key\": \"domain\",\r\n            \"value\": \"{{domain}}\",\r\n            \"description\": \"managed by postman\",\r\n            \"category\": \"terraform\",\r\n            \"hcl\": false,\r\n            \"sensitive\": false\r\n        },\r\n        \"type\": \"vars\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{api_endpoint}}/workspaces/{{workspace_id}}/vars"
+					},
+					"response": [
+						{
+							"id": "48657255-ab95-459a-ad8c-886a1a2e3f7b",
+							"name": "domain",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/vnd.api+json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"key\": \"domain\",\r\n            \"value\": \"{{domain}}\",\r\n            \"description\": \"managed by postman\",\r\n            \"category\": \"terraform\",\r\n            \"hcl\": false,\r\n            \"sensitive\": false\r\n        },\r\n        \"type\": \"vars\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{api_endpoint}}/workspaces/{{workspace_id}}/vars"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 08 Aug 2022 22:35:39 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/vnd.api+json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "655"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=0, private, must-revalidate"
+								},
+								{
+									"key": "Etag",
+									"value": "W/\"25e4e176f614e184830da4a3e7f5be7c\""
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "strict-origin-when-cross-origin"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=63072000; includeSubDomains; preload"
+								},
+								{
+									"key": "Tfp-Api-Version",
+									"value": "2.5"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Origin"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "X-Ratelimit-Limit",
+									"value": "30"
+								},
+								{
+									"key": "X-Ratelimit-Remaining",
+									"value": "29"
+								},
+								{
+									"key": "X-Ratelimit-Reset",
+									"value": "0.678"
+								},
+								{
+									"key": "X-Request-Id",
+									"value": "79c0d24f-ec44-45d7-fb48-3e6b443cfac5"
+								},
+								{
+									"key": "X-Xss-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"data\": {\n        \"id\": \"var-rcD16EbELRcVuZBb\",\n        \"type\": \"vars\",\n        \"attributes\": {\n            \"key\": \"domain\",\n            \"value\": \"devops.wien\",\n            \"sensitive\": false,\n            \"category\": \"terraform\",\n            \"hcl\": false,\n            \"created-at\": \"2022-08-08T22:35:39.109Z\",\n            \"description\": \"managed by postman\"\n        },\n        \"relationships\": {\n            \"configurable\": {\n                \"data\": {\n                    \"id\": \"ws-PS8PGJaiNyVwXEV7\",\n                    \"type\": \"workspaces\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/organizations/DEV-devops-wien/workspaces/default_workspace\"\n                }\n            },\n            \"workspace\": {\n                \"data\": {\n                    \"id\": \"ws-PS8PGJaiNyVwXEV7\",\n                    \"type\": \"workspaces\"\n                },\n                \"links\": {\n                    \"related\": \"/api/v2/organizations/DEV-devops-wien/workspaces/default_workspace\"\n                }\n            }\n        },\n        \"links\": {\n            \"self\": \"/api/v2/workspaces/ws-PS8PGJaiNyVwXEV7/vars/var-rcD16EbELRcVuZBb\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
 					"name": "cloudflare_zone_id",
 					"id": "391ee8c9-463e-46e6-839f-211f6a37d6da",
 					"protocolProfileBehavior": {
@@ -1668,31 +1809,31 @@
 	],
 	"variable": [
 		{
-			"id": "4d4f322a-4242-4d03-a6f4-779951a3ec5d",
+			"id": "cba34617-8173-4921-ae70-e5fc6ecd9690",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "71b3f871-8b9b-4aa0-bc5b-8f0a7aca638e",
+			"id": "0f2ac055-108d-4178-aba6-51649f783211",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "26872cba-f3b8-4ea4-893b-21935e10cbfe",
+			"id": "00c64188-34bf-4466-b4c6-a3e63a85fe43",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "9b497212-6d46-48f4-83e8-45a977451c91",
+			"id": "230cb736-a751-4f92-ab0b-0778b1da6205",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "7331175a-c1b3-4fc8-8a21-53d09383f6fa",
+			"id": "22be03b2-e383-40f5-abfe-1c7350c24cb4",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
