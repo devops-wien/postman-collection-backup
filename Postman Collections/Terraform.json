@@ -448,7 +448,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"key\": \"domain\",\r\n            \"value\": \"{{domain}}\",\r\n            \"description\": \"managed by postman\",\r\n            \"category\": \"terraform\",\r\n            \"hcl\": false,\r\n            \"sensitive\": false\r\n        },\r\n        \"type\": \"vars\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"key\": \"target_port\",\r\n            \"value\": \"{{target_port}}\",\r\n            \"description\": \"managed by postman\",\r\n            \"category\": \"terraform\",\r\n            \"hcl\": false,\r\n            \"sensitive\": false\r\n        },\r\n        \"type\": \"vars\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2091,43 +2091,43 @@
 	],
 	"variable": [
 		{
-			"id": "e0be9b99-3d24-4667-a1c4-46e9e4e98699",
+			"id": "263cb878-52b2-4d1c-bdd9-69219e41d728",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "2e3dbb41-a988-4c37-a394-90c2cd229bbc",
+			"id": "61801d6b-87ab-45e2-9697-1982e0f2c806",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "f1937126-32f2-4406-a181-031b160b70e0",
+			"id": "2b1cfffa-a6e3-4f76-9a47-3e5f2de2c1ca",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "3aaf874f-f5f1-4541-ac34-e33642bdff53",
+			"id": "2b74ba42-0802-4f4f-9ca3-6fcbca2918a1",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "6f4ca577-f24c-4798-bf3c-b2804f58d305",
+			"id": "e0ae0fc7-eb7a-4215-a958-f00db11cd190",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "2e427d12-f534-4ccd-924c-ac47d643c242",
+			"id": "761e8e02-a139-44c0-97a8-27547a83e745",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "7cf899ce-f965-465b-89e7-5e2d0e8f0954",
+			"id": "806b649f-bef4-4432-92c4-e4b6cc67c9f3",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
