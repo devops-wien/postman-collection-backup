@@ -2071,7 +2071,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f633707e-ad00-471f-836e-e8037e1fe7e6",
+				"id": "d9dfd7f6-fca0-4cb2-9415-5de89921f96a",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2081,7 +2081,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "cef20dd6-04a5-4de4-a8d6-83e0c3ebccaf",
+				"id": "aa4f5349-8887-4066-bef0-0c1424376f2c",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2091,55 +2091,55 @@
 	],
 	"variable": [
 		{
-			"id": "6108656a-1705-4acc-b2b5-9ef22a5a221b",
+			"id": "5dc9c3e9-5075-4863-8a2d-2205fb6f1a23",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "6137ef33-8c37-437d-bc3a-374ba58cc5d7",
+			"id": "8f061963-fccc-4f39-a2a1-11da685a599e",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "dbb88b57-4a35-407f-a6fd-4fa3e1b282d1",
+			"id": "642d1845-4de3-4042-84cd-a3c5fbfbb217",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "4321e862-767d-4681-b553-b0411e4cf2ac",
+			"id": "b04090f7-f45a-4f29-ae34-8c18ed7bdf03",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "ee6c58a0-9d74-4f94-9126-c4b83e9f188b",
+			"id": "3a05783a-5b75-47c8-971d-9e3271ed97e7",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "bfc92d6a-e564-45e1-9c91-91c0f51538fb",
+			"id": "73a5ad06-bd95-48cd-8d5b-6b80aaa62eed",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "62367ed6-3cdd-4bdf-8802-ff33064428b4",
+			"id": "74e25ee8-1689-4e2d-805a-61466b6bf796",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8b9062d0-5c24-4c56-86ea-b7ec1f95106e",
+			"id": "19207f13-77a9-42f5-a2fa-2607afc03b57",
 			"key": "target_port",
-			"value": "",
+			"value": "8080",
 			"type": "string"
 		},
 		{
-			"id": "8bdc2b62-ba39-49f9-ac4f-986ef5f8c6fa",
+			"id": "6e0c3d74-8041-4a9c-a3df-f3fa99c44fd0",
 			"key": "image",
 			"value": "",
 			"type": "string"
