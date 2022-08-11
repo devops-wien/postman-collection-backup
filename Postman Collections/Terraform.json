@@ -2326,7 +2326,29 @@
 						}
 					}
 				},
-				"url": "{{api_endpoint}}/organizations/{{organization_name}}/workspaces"
+				"url": {
+					"raw": "{{api_endpoint}}/organizations/{{organization_name}}/workspaces?search[tags]=deployment&page[size]=40",
+					"host": [
+						"{{api_endpoint}}"
+					],
+					"path": [
+						"organizations",
+						"{{organization_name}}",
+						"workspaces"
+					],
+					"query": [
+						{
+							"key": "search[tags]",
+							"value": "deployment",
+							"type": "text"
+						},
+						{
+							"key": "page[size]",
+							"value": "40",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": [
 				{
@@ -2672,61 +2694,61 @@
 	],
 	"variable": [
 		{
-			"id": "fe231c7b-9708-4ce7-8371-5cb5efb547cc",
+			"id": "43a4381d-3135-42cf-8956-f6feb8e7901e",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "476aa8b9-251a-4260-a141-4609df4e682b",
+			"id": "02bcd262-036d-47a3-97d2-a77851041e54",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "fa0c824c-eb43-41b4-b82e-8b97349af296",
+			"id": "7f157a44-e66e-4323-be5f-c878690ea4f5",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "f7894826-bf6d-4702-bd7f-59cd9935f9df",
+			"id": "82c7542d-2138-49c0-b29e-0fe8098ff83a",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "903c82a3-84b6-46ff-90fb-2b32fb9f8f84",
+			"id": "280c6b5b-c6a2-4cf5-9d09-a0e5cc1e31b5",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "04761d18-e465-48cb-b956-d70491b28b2a",
+			"id": "9bed5077-08ad-4f1d-b490-4087a86fd465",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "ae95c211-6a38-4c31-86bb-883fe903cb54",
+			"id": "ccebc9f1-9add-4115-9042-78929c89ca67",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "fb5f12b9-9724-4a66-85a3-56656c853645",
+			"id": "111aa7cf-bc99-44d5-872c-89284e59755e",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "8002b918-e905-4c6e-99a3-e414d1a895be",
+			"id": "3888cdab-cadc-4780-a6ba-716b7c0aa9fa",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "78ff7d06-6e98-4852-834b-3ed611ac8335",
+			"id": "15e7e629-72be-4bdb-ac79-01934d154a4d",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
