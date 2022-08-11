@@ -2694,67 +2694,67 @@
 	],
 	"variable": [
 		{
-			"id": "97391cf0-ae7a-410c-ad05-b8e9c802f7a9",
+			"id": "a29a391b-e8cd-47e3-8f69-76bdf1f329e1",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "76d814bd-f2c4-4034-9fc3-6262ea64a7de",
+			"id": "68996803-11ee-420c-89f5-4c39f4e701a6",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "c4225f98-b36e-4760-aaae-0a0fac42e791",
+			"id": "06dd657a-0a33-45fc-8937-a581649fa7e1",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "9b434822-6e64-4781-857c-c6024ac5a266",
+			"id": "0776e525-abf8-4585-be95-2fc4be98d85c",
 			"key": "workspace_id",
 			"value": "ws-8Pq2WDHdPow9VuBE",
 			"type": "string"
 		},
 		{
-			"id": "ce4a65e8-5c09-4233-b37a-78371622a28c",
+			"id": "3038f48e-6c83-43df-a9ba-17a97d4c1824",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "1d46020c-8dfd-4810-bffb-d1efb7c7e488",
+			"id": "27f2a9f7-c307-4910-8dbb-2a515dbe593a",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "03f3a14e-792a-43bb-a7f8-d14a0d71e9e6",
+			"id": "bad07ae7-b5e5-414b-963f-995ff242131d",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3d3417a6-d4b8-4b62-bcaa-376bd2fdabc6",
+			"id": "c6a89535-35da-44e0-8e10-4c2e3f4ab10f",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "dc89dff5-eb46-41db-a1e1-e59add68b557",
+			"id": "4273e563-79fe-47f6-82f5-fa1008d18109",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "8609ea50-0221-433a-8c45-6e3ece8a8fae",
+			"id": "adf41c47-5ed0-43d3-815e-ea1a01959f73",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
 		},
 		{
-			"id": "91993c18-0b1e-4c34-a3ab-29c52342f7fe",
+			"id": "b9e433bf-8cea-4f51-9576-b7f4f08942eb",
 			"key": "tag_name",
 			"value": "default-tag",
 			"type": "string"
