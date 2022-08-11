@@ -2038,7 +2038,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"is-destroy\": true,\r\n            \"message\": \"Managed by Postman\"\r\n        },\r\n        \"type\": \"runs\",\r\n        \"relationships\": {\r\n            \"workspace\": {\r\n                \"data\": {\r\n                    \"type\": \"workspaces\",\r\n                    \"id\": \"{{workspace_id}}\"\r\n                }\r\n            }\r\n        }\r\n    }\r\n}",
+					"raw": "{\r\n    \"data\": {\r\n        \"attributes\": {\r\n            \"is-destroy\": true,\r\n            \"message\": \"Managed by Postman\"\r\n        },\r\n        \"type\": \"runs\",\r\n        \"relationships\": {\r\n            \"workspace\": {\r\n                \"data\": {\r\n                    \"type\": \"workspaces\",\r\n                    \"id\": \"{{workspace_id}}\"\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -2782,67 +2782,67 @@
 	],
 	"variable": [
 		{
-			"id": "dbac6223-3541-484d-8b9d-e977d8e564a4",
+			"id": "d05727f6-e6ee-4372-ab7e-b651c0ee4328",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "c0156258-b76b-4f17-a0b2-d3aa38265cad",
+			"id": "462dd8f5-1f76-4658-94f8-4f2e4d251d53",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "1fe8acd1-1496-42e8-af1f-27ee20d557f6",
+			"id": "2bd8c889-4b73-4235-9d05-314f5af4c42e",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "a4112c3f-4750-455c-921b-c9fd485e465e",
+			"id": "7144d303-2d6e-4bf2-8f97-28814ff80f6b",
 			"key": "workspace_id",
 			"value": "ws-nFnkErBzjZQxamWd",
 			"type": "string"
 		},
 		{
-			"id": "230d930a-072d-47ff-9811-73bc8bd15cb1",
+			"id": "54e09c1b-5510-4804-8609-7bdd81c08dbd",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "fd7e2392-e8b6-4f88-88de-7a6c57076ec6",
+			"id": "96f2528e-4e2d-4750-b496-3298bec9093b",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "5f47fdd7-1ec8-46e5-a68e-9f14707761c5",
+			"id": "8f34e1e9-48c6-483a-b4cd-cdca1d970d07",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7916d9a0-97c0-4c1d-aaa6-e6adc134b135",
+			"id": "e6311076-628e-4d43-b22d-33e49d40f135",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "69638c00-eb01-4fd7-a9de-b861e97a0bd8",
+			"id": "25967846-71a6-4dfc-80b7-20b754daba2a",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "0aeccb7c-200b-4771-a5f1-3c86249b89d1",
+			"id": "e8fc006b-765b-4d54-b131-eee41ec62dfa",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
 		},
 		{
-			"id": "d1b7f66f-5a05-4475-871a-74be31484e76",
+			"id": "1ed31b64-b855-4b7a-9eae-a0515d176497",
 			"key": "tag_name",
 			"value": "default-tag",
 			"type": "string"
