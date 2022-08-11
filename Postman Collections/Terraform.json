@@ -2338,120 +2338,7 @@
 					]
 				}
 			},
-			"response": [
-				{
-					"id": "0de79809-05aa-40f2-9b9e-5459d80f7a89",
-					"name": "get Workspaces",
-					"originalRequest": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/vnd.api+json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{api_endpoint}}/organizations/{{organization_name}}/workspaces"
-					},
-					"status": "OK",
-					"code": 200,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Date",
-							"value": "Sun, 07 Aug 2022 13:03:20 GMT"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/vnd.api+json; charset=utf-8"
-						},
-						{
-							"key": "Transfer-Encoding",
-							"value": "chunked"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive"
-						},
-						{
-							"key": "Cache-Control",
-							"value": "max-age=0, private, must-revalidate"
-						},
-						{
-							"key": "Etag",
-							"value": "W/\"6b2b57c0adef1b5ca69e6dbc1b514ee1\""
-						},
-						{
-							"key": "Referrer-Policy",
-							"value": "strict-origin-when-cross-origin"
-						},
-						{
-							"key": "Strict-Transport-Security",
-							"value": "max-age=63072000; includeSubDomains; preload"
-						},
-						{
-							"key": "Tfp-Api-Version",
-							"value": "2.5"
-						},
-						{
-							"key": "Vary",
-							"value": "Accept-Encoding"
-						},
-						{
-							"key": "Vary",
-							"value": "Accept, Origin"
-						},
-						{
-							"key": "X-Content-Type-Options",
-							"value": "nosniff"
-						},
-						{
-							"key": "X-Download-Options",
-							"value": "noopen"
-						},
-						{
-							"key": "X-Frame-Options",
-							"value": "SAMEORIGIN"
-						},
-						{
-							"key": "X-Permitted-Cross-Domain-Policies",
-							"value": "none"
-						},
-						{
-							"key": "X-Ratelimit-Limit",
-							"value": "30"
-						},
-						{
-							"key": "X-Ratelimit-Remaining",
-							"value": "29"
-						},
-						{
-							"key": "X-Ratelimit-Reset",
-							"value": "0.49"
-						},
-						{
-							"key": "X-Request-Id",
-							"value": "4d3d8426-3f95-1813-a448-d06b4ba7a0e3"
-						},
-						{
-							"key": "X-Xss-Protection",
-							"value": "1; mode=block"
-						}
-					],
-					"cookie": [],
-					"responseTime": null,
-					"body": "{\n    \"data\": [\n        {\n            \"id\": \"ws-9yTAc6cHNXFdHAsa\",\n            \"type\": \"workspaces\",\n            \"attributes\": {\n                \"allow-destroy-plan\": true,\n                \"auto-apply\": true,\n                \"auto-destroy-at\": null,\n                \"created-at\": \"2022-08-07T12:58:32.044Z\",\n                \"environment\": \"default\",\n                \"locked\": false,\n                \"name\": \"at-vie-1\",\n                \"pull-request-outputs-enabled\": false,\n                \"queue-all-runs\": false,\n                \"speculative-enabled\": true,\n                \"structured-run-output-enabled\": true,\n                \"terraform-version\": \"latest\",\n                \"working-directory\": \"\",\n                \"global-remote-state\": false,\n                \"updated-at\": \"2022-08-07T12:58:32.658Z\",\n                \"resource-count\": 0,\n                \"apply-duration-average\": null,\n                \"plan-duration-average\": null,\n                \"policy-check-failures\": null,\n                \"run-failures\": null,\n                \"workspace-kpis-runs-count\": null,\n                \"latest-change-at\": \"2022-08-07T12:58:32.044Z\",\n                \"operations\": true,\n                \"execution-mode\": \"remote\",\n                \"vcs-repo\": {\n                    \"branch\": \"main\",\n                    \"ingress-submodules\": false,\n                    \"identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"display-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"oauth-token-id\": \"ot-nAyvLVYggCA9Y43D\",\n                    \"webhook-url\": \"https://app.terraform.io/webhooks/vcs/8ca6cb68-89c5-4ede-9199-31a6c6d42097\",\n                    \"repository-http-url\": \"https://github.com/devops-wien/terraform-exoscale-zone-demo\",\n                    \"service-provider\": \"github\"\n                },\n                \"vcs-repo-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                \"permissions\": {\n                    \"can-update\": true,\n                    \"can-destroy\": true,\n                    \"can-queue-run\": false,\n                    \"can-read-variable\": true,\n                    \"can-update-variable\": true,\n                    \"can-read-state-versions\": true,\n                    \"can-read-state-outputs\": true,\n                    \"can-create-state-versions\": false,\n                    \"can-queue-apply\": false,\n                    \"can-lock\": false,\n                    \"can-unlock\": false,\n                    \"can-force-unlock\": false,\n                    \"can-read-settings\": true,\n                    \"can-manage-tags\": true,\n                    \"can-manage-run-tasks\": false,\n                    \"can-manage-assessments\": true,\n                    \"can-read-assessment-results\": true,\n                    \"can-queue-destroy\": false\n                },\n                \"actions\": {\n                    \"is-destroyable\": true\n                },\n                \"description\": null,\n                \"file-triggers-enabled\": true,\n                \"trigger-prefixes\": [],\n                \"trigger-patterns\": [],\n                \"drift-detection\": false,\n                \"last-assessment-result-at\": null,\n                \"source\": \"tfe-api\",\n                \"source-name\": null,\n                \"source-url\": null,\n                \"tag-names\": []\n            },\n            \"relationships\": {\n                \"organization\": {\n                    \"data\": {\n                        \"id\": \"DEV-devops-wien\",\n                        \"type\": \"organizations\"\n                    }\n                },\n                \"current-run\": {\n                    \"data\": null\n                },\n                \"latest-run\": {\n                    \"data\": null\n                },\n                \"outputs\": {\n                    \"data\": []\n                },\n                \"remote-state-consumers\": {\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-9yTAc6cHNXFdHAsa/relationships/remote-state-consumers\"\n                    }\n                },\n                \"current-state-version\": {\n                    \"data\": null\n                },\n                \"current-configuration-version\": {\n                    \"data\": {\n                        \"id\": \"cv-jaMYHsYsJZrmmgzr\",\n                        \"type\": \"configuration-versions\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/configuration-versions/cv-jaMYHsYsJZrmmgzr\"\n                    }\n                },\n                \"agent-pool\": {\n                    \"data\": null\n                },\n                \"readme\": {\n                    \"data\": {\n                        \"id\": \"791670\",\n                        \"type\": \"workspace-readme\"\n                    }\n                },\n                \"current-assessment-result\": {\n                    \"data\": null\n                },\n                \"vars\": {\n                    \"data\": [\n                        {\n                            \"id\": \"var-Qtzk4dQQGjsti52A\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-RpvSxyuPto1Evvnp\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-mugxtWen38JLcMkL\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-KAB51QfbUE2QiM7J\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-yrifkZoSWecUGcwU\",\n                            \"type\": \"vars\"\n                        }\n                    ]\n                }\n            },\n            \"links\": {\n                \"self\": \"/api/v2/organizations/DEV-devops-wien/workspaces/at-vie-1\"\n            }\n        },\n        {\n            \"id\": \"ws-7zLoxqNz1EDdTbQ8\",\n            \"type\": \"workspaces\",\n            \"attributes\": {\n                \"allow-destroy-plan\": true,\n                \"auto-apply\": true,\n                \"auto-destroy-at\": null,\n                \"created-at\": \"2022-08-07T12:36:37.333Z\",\n                \"environment\": \"default\",\n                \"locked\": false,\n                \"name\": \"default_workspace\",\n                \"pull-request-outputs-enabled\": false,\n                \"queue-all-runs\": false,\n                \"speculative-enabled\": true,\n                \"structured-run-output-enabled\": true,\n                \"terraform-version\": \"latest\",\n                \"working-directory\": \"\",\n                \"global-remote-state\": false,\n                \"updated-at\": \"2022-08-07T12:36:37.833Z\",\n                \"resource-count\": 0,\n                \"apply-duration-average\": null,\n                \"plan-duration-average\": null,\n                \"policy-check-failures\": null,\n                \"run-failures\": null,\n                \"workspace-kpis-runs-count\": null,\n                \"latest-change-at\": \"2022-08-07T12:36:37.333Z\",\n                \"operations\": true,\n                \"execution-mode\": \"remote\",\n                \"vcs-repo\": {\n                    \"branch\": \"main\",\n                    \"ingress-submodules\": false,\n                    \"identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"display-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"oauth-token-id\": \"ot-nAyvLVYggCA9Y43D\",\n                    \"webhook-url\": \"https://app.terraform.io/webhooks/vcs/8ca6cb68-89c5-4ede-9199-31a6c6d42097\",\n                    \"repository-http-url\": \"https://github.com/devops-wien/terraform-exoscale-zone-demo\",\n                    \"service-provider\": \"github\"\n                },\n                \"vcs-repo-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                \"permissions\": {\n                    \"can-update\": true,\n                    \"can-destroy\": true,\n                    \"can-queue-run\": false,\n                    \"can-read-variable\": true,\n                    \"can-update-variable\": true,\n                    \"can-read-state-versions\": true,\n                    \"can-read-state-outputs\": true,\n                    \"can-create-state-versions\": false,\n                    \"can-queue-apply\": false,\n                    \"can-lock\": false,\n                    \"can-unlock\": false,\n                    \"can-force-unlock\": false,\n                    \"can-read-settings\": true,\n                    \"can-manage-tags\": true,\n                    \"can-manage-run-tasks\": false,\n                    \"can-manage-assessments\": true,\n                    \"can-read-assessment-results\": true,\n                    \"can-queue-destroy\": false\n                },\n                \"actions\": {\n                    \"is-destroyable\": true\n                },\n                \"description\": null,\n                \"file-triggers-enabled\": true,\n                \"trigger-prefixes\": [],\n                \"trigger-patterns\": [],\n                \"drift-detection\": false,\n                \"last-assessment-result-at\": null,\n                \"source\": \"tfe-api\",\n                \"source-name\": null,\n                \"source-url\": null,\n                \"tag-names\": []\n            },\n            \"relationships\": {\n                \"organization\": {\n                    \"data\": {\n                        \"id\": \"DEV-devops-wien\",\n                        \"type\": \"organizations\"\n                    }\n                },\n                \"current-run\": {\n                    \"data\": null\n                },\n                \"latest-run\": {\n                    \"data\": null\n                },\n                \"outputs\": {\n                    \"data\": []\n                },\n                \"remote-state-consumers\": {\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-7zLoxqNz1EDdTbQ8/relationships/remote-state-consumers\"\n                    }\n                },\n                \"current-state-version\": {\n                    \"data\": null\n                },\n                \"current-configuration-version\": {\n                    \"data\": {\n                        \"id\": \"cv-wp6fU7pJgQxf9MSs\",\n                        \"type\": \"configuration-versions\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/configuration-versions/cv-wp6fU7pJgQxf9MSs\"\n                    }\n                },\n                \"agent-pool\": {\n                    \"data\": null\n                },\n                \"readme\": {\n                    \"data\": {\n                        \"id\": \"791647\",\n                        \"type\": \"workspace-readme\"\n                    }\n                },\n                \"current-assessment-result\": {\n                    \"data\": null\n                },\n                \"vars\": {\n                    \"data\": [\n                        {\n                            \"id\": \"var-GEPcFo4Khz6FCdrb\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-KKetPKAaR1h1qrxH\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-APyogihVhyFqdKFs\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-MJY2AJStZrr8K1ED\",\n                            \"type\": \"vars\"\n                        },\n                        {\n                            \"id\": \"var-a1gBzmSF5tRs2tKH\",\n                            \"type\": \"vars\"\n                        }\n                    ]\n                }\n            },\n            \"links\": {\n                \"self\": \"/api/v2/organizations/DEV-devops-wien/workspaces/default_workspace\"\n            }\n        },\n        {\n            \"id\": \"ws-UfKmURy2NC6B3jUr\",\n            \"type\": \"workspaces\",\n            \"attributes\": {\n                \"allow-destroy-plan\": true,\n                \"auto-apply\": true,\n                \"auto-destroy-at\": null,\n                \"created-at\": \"2022-08-07T11:43:37.181Z\",\n                \"environment\": \"default\",\n                \"locked\": false,\n                \"name\": \"dev-muc-1\",\n                \"pull-request-outputs-enabled\": false,\n                \"queue-all-runs\": false,\n                \"speculative-enabled\": true,\n                \"structured-run-output-enabled\": true,\n                \"terraform-version\": \"latest\",\n                \"working-directory\": \"\",\n                \"global-remote-state\": false,\n                \"updated-at\": \"2022-08-07T11:43:37.684Z\",\n                \"resource-count\": 0,\n                \"apply-duration-average\": null,\n                \"plan-duration-average\": null,\n                \"policy-check-failures\": null,\n                \"run-failures\": null,\n                \"workspace-kpis-runs-count\": null,\n                \"latest-change-at\": \"2022-08-07T11:43:37.181Z\",\n                \"operations\": true,\n                \"execution-mode\": \"remote\",\n                \"vcs-repo\": {\n                    \"branch\": \"main\",\n                    \"ingress-submodules\": false,\n                    \"identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"display-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"oauth-token-id\": \"ot-nAyvLVYggCA9Y43D\",\n                    \"webhook-url\": \"https://app.terraform.io/webhooks/vcs/8ca6cb68-89c5-4ede-9199-31a6c6d42097\",\n                    \"repository-http-url\": \"https://github.com/devops-wien/terraform-exoscale-zone-demo\",\n                    \"service-provider\": \"github\"\n                },\n                \"vcs-repo-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                \"permissions\": {\n                    \"can-update\": true,\n                    \"can-destroy\": true,\n                    \"can-queue-run\": false,\n                    \"can-read-variable\": true,\n                    \"can-update-variable\": true,\n                    \"can-read-state-versions\": true,\n                    \"can-read-state-outputs\": true,\n                    \"can-create-state-versions\": false,\n                    \"can-queue-apply\": false,\n                    \"can-lock\": false,\n                    \"can-unlock\": false,\n                    \"can-force-unlock\": false,\n                    \"can-read-settings\": true,\n                    \"can-manage-tags\": true,\n                    \"can-manage-run-tasks\": false,\n                    \"can-manage-assessments\": true,\n                    \"can-read-assessment-results\": true,\n                    \"can-queue-destroy\": false\n                },\n                \"actions\": {\n                    \"is-destroyable\": true\n                },\n                \"description\": null,\n                \"file-triggers-enabled\": true,\n                \"trigger-prefixes\": [],\n                \"trigger-patterns\": [],\n                \"drift-detection\": false,\n                \"last-assessment-result-at\": null,\n                \"source\": \"tfe-api\",\n                \"source-name\": null,\n                \"source-url\": null,\n                \"tag-names\": []\n            },\n            \"relationships\": {\n                \"organization\": {\n                    \"data\": {\n                        \"id\": \"DEV-devops-wien\",\n                        \"type\": \"organizations\"\n                    }\n                },\n                \"current-run\": {\n                    \"data\": null\n                },\n                \"latest-run\": {\n                    \"data\": null\n                },\n                \"outputs\": {\n                    \"data\": []\n                },\n                \"remote-state-consumers\": {\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-UfKmURy2NC6B3jUr/relationships/remote-state-consumers\"\n                    }\n                },\n                \"current-state-version\": {\n                    \"data\": null\n                },\n                \"current-configuration-version\": {\n                    \"data\": {\n                        \"id\": \"cv-tNdMmu7XMe7YnJxw\",\n                        \"type\": \"configuration-versions\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/configuration-versions/cv-tNdMmu7XMe7YnJxw\"\n                    }\n                },\n                \"agent-pool\": {\n                    \"data\": null\n                },\n                \"readme\": {\n                    \"data\": {\n                        \"id\": \"791622\",\n                        \"type\": \"workspace-readme\"\n                    }\n                },\n                \"current-assessment-result\": {\n                    \"data\": null\n                },\n                \"vars\": {\n                    \"data\": []\n                }\n            },\n            \"links\": {\n                \"self\": \"/api/v2/organizations/DEV-devops-wien/workspaces/dev-muc-1\"\n            }\n        },\n        {\n            \"id\": \"ws-JuaK8G7pq4vy2ahz\",\n            \"type\": \"workspaces\",\n            \"attributes\": {\n                \"allow-destroy-plan\": true,\n                \"auto-apply\": true,\n                \"auto-destroy-at\": null,\n                \"created-at\": \"2022-08-06T22:36:28.450Z\",\n                \"environment\": \"default\",\n                \"locked\": false,\n                \"name\": \"exoscale-at-vie-1-dev-demo\",\n                \"pull-request-outputs-enabled\": false,\n                \"queue-all-runs\": false,\n                \"speculative-enabled\": true,\n                \"structured-run-output-enabled\": true,\n                \"terraform-version\": \"latest\",\n                \"working-directory\": \"\",\n                \"global-remote-state\": false,\n                \"updated-at\": \"2022-08-07T10:41:55.549Z\",\n                \"resource-count\": 0,\n                \"apply-duration-average\": 116000,\n                \"plan-duration-average\": 34000,\n                \"policy-check-failures\": null,\n                \"run-failures\": 9,\n                \"workspace-kpis-runs-count\": 15,\n                \"latest-change-at\": \"2022-08-07T10:41:55.120Z\",\n                \"operations\": true,\n                \"execution-mode\": \"remote\",\n                \"vcs-repo\": {\n                    \"branch\": \"\",\n                    \"ingress-submodules\": true,\n                    \"identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"display-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                    \"oauth-token-id\": \"ot-nAyvLVYggCA9Y43D\",\n                    \"webhook-url\": \"https://app.terraform.io/webhooks/vcs/8ca6cb68-89c5-4ede-9199-31a6c6d42097\",\n                    \"repository-http-url\": \"https://github.com/devops-wien/terraform-exoscale-zone-demo\",\n                    \"service-provider\": \"github\"\n                },\n                \"vcs-repo-identifier\": \"devops-wien/terraform-exoscale-zone-demo\",\n                \"permissions\": {\n                    \"can-update\": true,\n                    \"can-destroy\": true,\n                    \"can-queue-run\": false,\n                    \"can-read-variable\": true,\n                    \"can-update-variable\": true,\n                    \"can-read-state-versions\": true,\n                    \"can-read-state-outputs\": true,\n                    \"can-create-state-versions\": false,\n                    \"can-queue-apply\": false,\n                    \"can-lock\": false,\n                    \"can-unlock\": false,\n                    \"can-force-unlock\": false,\n                    \"can-read-settings\": true,\n                    \"can-manage-tags\": true,\n                    \"can-manage-run-tasks\": false,\n                    \"can-manage-assessments\": true,\n                    \"can-read-assessment-results\": true,\n                    \"can-queue-destroy\": false\n                },\n                \"actions\": {\n                    \"is-destroyable\": true\n                },\n                \"description\": null,\n                \"file-triggers-enabled\": false,\n                \"trigger-prefixes\": [],\n                \"trigger-patterns\": [],\n                \"drift-detection\": false,\n                \"last-assessment-result-at\": null,\n                \"source\": \"tfe-ui\",\n                \"source-name\": null,\n                \"source-url\": null,\n                \"tag-names\": []\n            },\n            \"relationships\": {\n                \"organization\": {\n                    \"data\": {\n                        \"id\": \"DEV-devops-wien\",\n                        \"type\": \"organizations\"\n                    }\n                },\n                \"current-run\": {\n                    \"data\": {\n                        \"id\": \"run-CZz6ft8X8nRrhLo8\",\n                        \"type\": \"runs\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/runs/run-CZz6ft8X8nRrhLo8\"\n                    }\n                },\n                \"latest-run\": {\n                    \"data\": {\n                        \"id\": \"run-CZz6ft8X8nRrhLo8\",\n                        \"type\": \"runs\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/runs/run-CZz6ft8X8nRrhLo8\"\n                    }\n                },\n                \"outputs\": {\n                    \"data\": [],\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-JuaK8G7pq4vy2ahz/current-state-version-outputs\"\n                    }\n                },\n                \"remote-state-consumers\": {\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-JuaK8G7pq4vy2ahz/relationships/remote-state-consumers\"\n                    }\n                },\n                \"current-state-version\": {\n                    \"data\": {\n                        \"id\": \"sv-cPeYab293kCYDyKY\",\n                        \"type\": \"state-versions\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/workspaces/ws-JuaK8G7pq4vy2ahz/current-state-version\"\n                    }\n                },\n                \"current-configuration-version\": {\n                    \"data\": {\n                        \"id\": \"cv-GGqaZPVMUWMGT4q6\",\n                        \"type\": \"configuration-versions\"\n                    },\n                    \"links\": {\n                        \"related\": \"/api/v2/configuration-versions/cv-GGqaZPVMUWMGT4q6\"\n                    }\n                },\n                \"agent-pool\": {\n                    \"data\": null\n                },\n                \"readme\": {\n                    \"data\": {\n                        \"id\": \"791107\",\n                        \"type\": \"workspace-readme\"\n                    }\n                },\n                \"current-assessment-result\": {\n                    \"data\": null\n                },\n                \"vars\": {\n                    \"data\": []\n                }\n            },\n            \"links\": {\n                \"self\": \"/api/v2/organizations/DEV-devops-wien/workspaces/exoscale-at-vie-1-dev-demo\"\n            }\n        }\n    ],\n    \"links\": {\n        \"self\": \"https://app.terraform.io/api/v2/organizations/DEV-devops-wien/workspaces?page%5Bnumber%5D=1&page%5Bsize%5D=20\",\n        \"first\": \"https://app.terraform.io/api/v2/organizations/DEV-devops-wien/workspaces?page%5Bnumber%5D=1&page%5Bsize%5D=20\",\n        \"prev\": null,\n        \"next\": null,\n        \"last\": \"https://app.terraform.io/api/v2/organizations/DEV-devops-wien/workspaces?page%5Bnumber%5D=1&page%5Bsize%5D=20\"\n    },\n    \"meta\": {\n        \"status-counts\": {\n            \"pending\": 0,\n            \"fetching\": 0,\n            \"fetching-completed\": 0,\n            \"pre-plan-running\": 0,\n            \"pre-plan-completed\": 0,\n            \"queuing\": 0,\n            \"plan-queued\": 0,\n            \"planning\": 0,\n            \"planned\": 0,\n            \"confirmed\": 0,\n            \"apply-queued\": 0,\n            \"applying\": 0,\n            \"applied\": 1,\n            \"discarded\": 0,\n            \"errored\": 0,\n            \"canceled\": 0,\n            \"cost-estimating\": 0,\n            \"cost-estimated\": 0,\n            \"policy-checking\": 0,\n            \"policy-override\": 0,\n            \"policy-checked\": 0,\n            \"policy-soft-failed\": 0,\n            \"planned-and-finished\": 0,\n            \"post-plan-running\": 0,\n            \"post-plan-completed\": 0,\n            \"pre-apply-running\": 0,\n            \"pre-apply-completed\": 0,\n            \"assessing\": 0,\n            \"assessed\": 0,\n            \"none\": 3,\n            \"total\": 4\n        },\n        \"pagination\": {\n            \"current-page\": 1,\n            \"page-size\": 20,\n            \"prev-page\": null,\n            \"next-page\": null,\n            \"total-pages\": 1,\n            \"total-count\": 4\n        }\n    }\n}"
-				}
-			]
+			"response": []
 		},
 		{
 			"name": "OAuth Clients API",
@@ -2682,67 +2569,67 @@
 	],
 	"variable": [
 		{
-			"id": "59a99960-8657-4bac-842e-4faf8cca8cfe",
+			"id": "d9752cf7-975d-4c9f-9fa7-a6b2000711ea",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "d94346bc-ac69-4cdb-9541-4fa5f56f2d62",
+			"id": "b3456f97-ea27-4c28-8d1d-35b3da33661a",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "ba3f1f3f-c5d3-4d22-a3c6-a4900afb7132",
+			"id": "1c66aad8-573a-46ce-8f7b-ea3ecbedd4b3",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "2d6a41e2-3699-45d9-9ab8-06d844a10ce1",
+			"id": "c11892d5-4e3e-42f5-95e6-1c5dad5312a3",
 			"key": "workspace_id",
 			"value": "ws-8Pq2WDHdPow9VuBE",
 			"type": "string"
 		},
 		{
-			"id": "2b7cc747-9ced-44d6-aa42-77c0e990db1c",
+			"id": "8c59d8b1-0c85-4355-963d-ff5697fe47d5",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "b84d8171-3f01-466f-9257-569597c8d4ba",
+			"id": "c030ef2e-c360-4eae-ab8d-feabf8eaeb70",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "c1499ac5-83b2-47ff-9a18-40ed6e06c8dd",
+			"id": "19d2cc83-bf85-4044-aec5-7b3177da5fee",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b8cdde23-7da2-4270-874c-2d136e9c4e15",
+			"id": "491f6f0d-fe5f-4efd-8321-0494a43cc91e",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "2d73e003-dd27-4a86-b5e0-d650670e028b",
+			"id": "d170469e-9d43-48a0-a644-e3e466258053",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "055b01a1-e81c-4e48-bf54-d859566df9cf",
+			"id": "74904e29-e606-487e-ba40-5a3f2b0f4ef1",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
 		},
 		{
-			"id": "3b1a036c-a7e3-4b29-aa02-b148331ac88d",
+			"id": "8aa75a22-871e-4a9e-abda-af92699d41b0",
 			"key": "tag_name",
 			"value": "default-tag",
 			"type": "string"
