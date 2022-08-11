@@ -2303,7 +2303,7 @@
 			]
 		},
 		{
-			"name": "get Deployment Workspaces",
+			"name": "get Workspaces by Tag",
 			"id": "c8eb2891-090d-4715-b893-2a40e72af34f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -2694,61 +2694,61 @@
 	],
 	"variable": [
 		{
-			"id": "99381f5d-d95b-4581-a7a2-2f24a98cc7a8",
+			"id": "1f342a4c-c4c8-48ae-8b25-e6f49dfab2c1",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "fa3a71d2-d2de-4a9b-b2e0-7733785d9d43",
+			"id": "448d010d-53ac-4244-892f-305858534427",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "dfcdd3d6-92d6-4306-9e45-a74aca69b492",
+			"id": "ee3c4997-be7d-4f1f-9212-488feaf9e120",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "fc46b829-421d-4260-8ad5-dec98a6d3f96",
+			"id": "d849d00e-a970-4a4a-9460-22ea960fdc22",
 			"key": "workspace_id",
 			"value": "ws-PS8PGJaiNyVwXEV7",
 			"type": "string"
 		},
 		{
-			"id": "6c4c3413-3792-4434-9e69-21dcb78f9be0",
+			"id": "41b566e8-a633-4525-8aef-f7641c451266",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "db8765a6-8265-405f-864c-dc444cd3cc57",
+			"id": "e5f24143-1967-40b2-b346-71202211ae66",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "123f13bc-6466-4e25-9d0b-b0d446b1b5cf",
+			"id": "66b6cedc-f1a5-49b5-a561-4d209a63c6c1",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8abf0723-6939-4fc9-80ef-bb8732ad3512",
+			"id": "d6569d8b-b59b-4091-bb1a-920aeca0c1d3",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "29e52381-e637-4381-aca0-4141cee74157",
+			"id": "a08b7474-3fcb-4a05-82d5-c3027a0f9972",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "be723ccc-e64f-41dc-b40d-a273d653a7d2",
+			"id": "539c118a-d250-44b5-9102-e270c77cfa7f",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
