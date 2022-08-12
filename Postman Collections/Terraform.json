@@ -2029,6 +2029,21 @@
 		},
 		{
 			"name": "destroy Workspace",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c65e8fae-1384-4fdd-b415-af59c8e08276",
+						"exec": [
+							"pm.test(\"Status test\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "e9e73475-eeb9-47d9-b408-03d1f0be1b06",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true,
@@ -2797,67 +2812,67 @@
 	],
 	"variable": [
 		{
-			"id": "7a2ecf4a-7781-4c25-91b5-22c69136c67d",
+			"id": "c2e97a7a-ce6f-437c-a3ee-f5b5f1e3c010",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "8de9ed09-c15a-4366-8814-b71729c43788",
+			"id": "7709dd4c-ccee-4389-ba08-273e99b5688d",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "d6896934-17bc-4b67-9421-0685d3d3c436",
+			"id": "7ff12bdf-ffc1-4c49-95ee-afc0f7733140",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "217d837e-f91d-432f-b289-a30ae24de0b3",
+			"id": "a97e5ce7-a007-4d9b-8418-aa089f81cd59",
 			"key": "workspace_id",
 			"value": "ws-nFnkErBzjZQxamWd",
 			"type": "string"
 		},
 		{
-			"id": "8ac05d87-c80f-469b-8726-fb697c9c7f63",
+			"id": "52e2ac59-dd31-45f1-b7a4-c747e99107c3",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "d1ef447f-22e2-4601-8df2-1feb53a296b3",
+			"id": "c68864f7-e36a-45ab-b3a3-ed20a5b69dc6",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "7ac4c2c6-df96-4035-bfe3-9bebb755a869",
+			"id": "0e936270-0e7a-484b-8c9f-46c1cca94d90",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "53c92eff-8b1a-4741-8f01-2f24eba605f7",
+			"id": "320e9451-1e69-4738-82e6-2f2e7fc87c25",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "eb4cb5ad-0c66-45a6-b183-7d31d07d0e0b",
+			"id": "19e406f2-1036-4153-8416-fe1ff5e44ffc",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "7bd9e09d-ce37-4ea6-9d59-39d6193b61d8",
+			"id": "ba1ac806-fbf4-4b57-8c56-b4c3b80cfd41",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
 		},
 		{
-			"id": "a685aea2-12ec-4b3f-a4ce-1df454a4d7a5",
+			"id": "b62e0778-a09a-46e0-a772-45141816509f",
 			"key": "tag_name",
 			"value": "default-tag",
 			"type": "string"
