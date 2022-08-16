@@ -1560,7 +1560,7 @@
 					]
 				},
 				{
-					"name": "cloudflare_api_token Copy",
+					"name": "pod_strategy",
 					"id": "9fd7d287-c47a-4978-8b44-d11acbcf248f",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -2840,67 +2840,67 @@
 	],
 	"variable": [
 		{
-			"id": "02e61abf-1e66-472f-a6eb-4c09a73e040d",
+			"id": "3c8cb8a7-baa3-40d5-a175-983a12d38daa",
 			"key": "api_endpoint",
 			"value": "https://app.terraform.io/api/v2",
 			"type": "string"
 		},
 		{
-			"id": "661ee11a-e042-4b44-b590-1c3c3353a134",
+			"id": "a8cc522a-80fa-4c44-ae44-041eb0ac29e9",
 			"key": "workspace_repository",
 			"value": "devops-wien/terraform-exoscale-zone-demo",
 			"type": "string"
 		},
 		{
-			"id": "8cd9ec78-7440-4318-bfda-c7544fa03228",
+			"id": "11058bd4-94c2-4e1d-bb5b-485e0b922c47",
 			"key": "workspace_name",
 			"value": "default_workspace",
 			"type": "string"
 		},
 		{
-			"id": "f7203644-3668-4307-bb66-43aa19fb354a",
+			"id": "49f6034e-3ab1-4d76-a661-d4e00030992c",
 			"key": "workspace_id",
 			"value": "ws-nFnkErBzjZQxamWd",
 			"type": "string"
 		},
 		{
-			"id": "0a7d0b08-75a0-4afc-9292-594381d9a5d1",
+			"id": "87fed752-b0f0-4027-9418-fbae4b1b45ef",
 			"key": "zone",
 			"value": "at-vie-1",
 			"type": "string"
 		},
 		{
-			"id": "521101e9-ca4b-4c8c-ada8-d79206a3bf62",
+			"id": "5113db2d-e3d9-4558-b837-8c02f622d13c",
 			"key": "organization",
 			"value": "DEV-devops-wien",
 			"type": "string"
 		},
 		{
-			"id": "60ca26f1-844f-44de-bc87-3253bf78c27f",
+			"id": "ee8da56c-6b87-4279-890f-5b7f32cb3b07",
 			"key": "workspace_postfix",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c6aa5002-a1b7-4617-b7fa-30340c9fcbbb",
+			"id": "46a74120-61e9-46b2-ae8d-710edd3aa1f1",
 			"key": "target_port",
 			"value": "3000",
 			"type": "string"
 		},
 		{
-			"id": "7b738285-6395-47e4-9fb1-9af8280f2971",
+			"id": "f9e8adfa-651a-4359-9413-f87aea557745",
 			"key": "image",
 			"value": "devopswien/docker-nextjs-demo",
 			"type": "string"
 		},
 		{
-			"id": "7f81e575-4144-4860-b6e7-3c62b957553f",
+			"id": "246f7290-65ad-4ec2-a4f0-89a230f7d22f",
 			"key": "subdomain",
 			"value": "nextjs",
 			"type": "string"
 		},
 		{
-			"id": "f4f64beb-613c-4eb5-8e21-ff53dbf03aae",
+			"id": "aba23dc0-b2b3-48e7-ba4b-4bfe5e97de8a",
 			"key": "tag_name",
 			"value": "default-tag",
 			"type": "string"
